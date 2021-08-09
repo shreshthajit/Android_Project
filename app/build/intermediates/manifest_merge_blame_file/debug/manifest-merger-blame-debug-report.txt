@@ -1,0 +1,86 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.project"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml:5:5-32:19
+12        android:allowBackup="true"
+12-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.3.1] /home/shreshthajit/.gradle/caches/transforms-2/files-2.1/aed2d48291dbe4779678b4bb5ca34b78/core-1.3.1/AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/Theme.Project" >
+20-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml:11:9-45
+21        <activity android:name="com.example.project.payment_activity" />
+21-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml:12:9-54
+21-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml:12:19-51
+22        <activity android:name="com.example.project.SeatSelection" />
+22-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml:13:9-51
+22-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml:13:19-48
+23        <activity android:name="com.example.project.deletebus" />
+23-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml:14:9-47
+23-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml:14:19-44
+24        <activity android:name="com.example.project.updatebus" />
+24-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml:15:9-47
+24-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml:15:19-44
+25        <activity android:name="com.example.project.adminlogin" />
+25-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml:16:9-48
+25-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml:16:19-45
+26        <activity android:name="com.example.project.adminsignup" />
+26-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml:17:9-49
+26-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml:17:19-46
+27        <activity android:name="com.example.project.adminpanel" />
+27-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml:18:9-48
+27-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml:18:19-45
+28        <activity android:name="com.example.project.addbus" />
+28-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml:19:9-44
+28-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml:19:19-41
+29        <activity android:name="com.example.project.receipt" />
+29-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml:20:9-45
+29-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml:20:19-42
+30        <activity android:name="com.example.project.Booking" />
+30-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml:21:9-45
+30-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml:21:19-42
+31        <activity android:name="com.example.project.Signup" />
+31-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml:22:9-44
+31-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml:22:19-41
+32        <activity android:name="com.example.project.Login" />
+32-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml:23:9-43
+32-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml:23:19-40
+33        <activity android:name="com.example.project.MainActivity" >
+33-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml:24:9-30:20
+33-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml:24:19-47
+34            <intent-filter>
+34-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml:25:13-29:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml:26:17-69
+35-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml:26:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml:28:17-77
+37-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml:28:27-74
+38            </intent-filter>
+39        </activity>
+40        <activity android:name="com.example.project.ViewListContents" />
+40-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml:31:9-54
+40-->/home/shreshthajit/Downloads/Bus Ticketing System/app/src/main/AndroidManifest.xml:31:19-51
+41    </application>
+42
+43</manifest>
